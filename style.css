@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 96%;
+}
+/* header-area start */
+.header-area{
+    background: #dfe8e6;
+}
+.header{
+    width: 1440px;
+    height: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .header img {
+        margin-left: 60px;
+        margin-top: -14px;
+    }
+    .header ul li{
+        list-style: none;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+        padding: 10px 16px;
+        }
+        .header ul li a{
+            color: #000000bf;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        .header button{
+            width: 120px;
+            height: 27px;
+            border: 2px solid #000;
+            border-radius: 4px;
+            margin-right: 49px;
+        }
+        .header button a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* header-area end */
+        /* !-- Banner-area start --> */
+        .banner-area{
+            position: relaitve;
+            background-image: url(images/Rectangle27.png);
+            background-size: cover;
+            height: 616px;
+            width: 100%;
+        }
+        .banner-text{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .banner-text h2{
+        color: #fff;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59.42px;
+        }
+        .banner-text button {
+            padding: 16px 50px;
+            border-radius: 8px;
+            font-weight: bold;
+            border: none;
+            margin-top: 35px;
+        }
+        
+        /* <!-- Banner-ar
+        ea end --> */
+        /* <!-- Principal-area start --> */
+        .Principal-area{
+            background: white;
+            width: 100%;
+            height: 765px;
+            overflow: hidden;
+        }
+        .Principal{
+            display: flex;
+            padding: 30px 0 30px 0;
+        }
+        .Principal-img{
+            margin-right: 40px;
+        }
+        .Principal-img {
+            width: 50%;
+            overflow: hidden;
+        }
+        
+        .Principal-text {
+            width: 50%;
+            overflow: hidden;
+        }
+        .Principal-img img {
+            width: 75%;
+            margin-left: 25%;
+            margin-top: 14px;
+        }
+        .Principal-text h3 {
+            font-size: 36px;
+            font-weight: 500;
+        }
+        .Principal-text h2 {
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 46.55px;
+            margin-top: 17px;
+        }
+        .Principal-text p {
+            text-align: justify;
+            width: 94%;
+            margin-top: 20px;
+        }
+        .Principal-text button{
+            background: #91D497;
+            border: none;
+            color: #fff;
+            padding: 21px 75px;
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+        /* <!-- Principal-area end --> */
+        /* <!-- About-area start --> */
+        .about-area{
+            width: 100%;
+            height: 795px;
+            background:rgb(240, 240, 240);
+            overflow: hidden;
+        }
+        .about{
+            display: flex;
+            /* overflow: hidden; */
+            width: 100%;
+            /* justify-content: space-between; */
+        }
+      .form_area{
+        width: 50%;
+        padding-left: 14%;
+        margin-top: 75px;
+        /* background: aqua; */
+      }
+      .content_image{
+        width: 50%;
+      }
+
+      .form_area h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 18px;
+    }
+    .form_area h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 18px;
+        margin-top: -14px;
+    }
+    .form_area p {
+        text-align: center;
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+    .form_area input {
+        background: #C2DAD4;
+        border: none;
+        width: 68%;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 18px 30px;
+        border-radius: 8px;
+        margin-top: 7px;
+        margin-left: 68px;
+    }
+    .form_area button {
+        background: #68bca7;
+        border: none;
+        color: #fff;
+        font-size: 21px;
+        text-align: center;
+        padding: 16px 29px;
+        border-radius: 9px;
+        margin-left: 27%;
+        margin-top: 31px;
+    }
+
+    .content_image {
+        width: 50%;
+        margin-left: 0%;
+        overflow: hidden;
+    }
+    .content_image img {
+        margin-top: 31%;
+        width: 63%;
+    }
+        /* <!-- About-area end --> */
+
+        /*Services area stary*/
+        .services{
+            width: 100%;
+            height: 900px;
+            overflow: hidden;
+        }
+        .services_text h1 {
+            font-size: 48px;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .services_text p {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        /* .services_img1 {
+            overflow: hidden;
+            float: left;
+            padding: 5% 5% 0% 13%;
+        }
+        
+        .services_img2 {
+            float: left;
+            overflow: hidden;
+            padding: 5% 3% 0% 1%;
+        }
+        
+        .services_img3 {
+            float: left;
+            overflow: hidden;
+            padding: 5% 5% 0% 4%;
+        } */
+        .services_img1 p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        
+        .services_img2 p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        
+        .services_img3 p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .services-image-start{
+            width: 100%;
+            overflow: hidden;
+        }
+        .services_Btn {
+            justify-content: center;
+            display: flex;
+            margin-top: 10%;
+        }
+        
+        .services_Btn button {
+            background: #fff;
+            padding: 16px 60px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 11px;
+            margin-top: -35px;
+        }
+        /*services area end*/
+          
+       
+
+    .content_image {
+        width: 50%;
+        margin-left: 0%;
+        overflow: hidden;
+    }
+    .content_image img {
+        margin-top: 33%;
+        width: 65%;
+    }
+        /* <!-- About-area end --> */
+
+        /*Services area stary*/
+        .services{
+            width: 100%;
+            height: 900px;
+            overflow: hidden;
+        }
+        .services_text h1 {
+            font-size: 48px;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .services_text p {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .services_img1 {
+            overflow: hidden;
+            float: left;
+            padding: 5% 5% 0% 13%;
+        }
+        
+        .services_img2 {
+            float: left;
+            overflow: hidden;
+            padding: 5% 3% 0% 1%;
+        }
+        
+        .services_img3 {
+            float: left;
+            overflow: hidden;
+            padding: 5% 5% 0% 4%;
+        }
+        .services_img1 p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        
+        .services_img2 p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        
+        .services_img3 p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .services-image-start{
+            width: 100%;
+            overflow: hidden;
+        }
+        .services-image-start button {
+            background: #fff;
+            padding: 16px 60px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 11px;
+            margin-left: 40%;
+            margin-top: 80px;
+        }
+        /*services area end*/
+
+        /* <!-- philocophy area start --> */
+        
+        .philosophy_area {
+            width: 100%;
+            height: 734px;
+            overflow: hidden;
+        }
+            .philosophy {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .philosophy_img {
+            background: antiquewhite;
+            width: 50%;
+        }
+        
+        .philosophy_text {
+            width: 50%;
+            background: rgb(240, 240, 240);
+        }
+        
+        .philosophy_img img {
+            width: 100%;
+            height: 734px;
+        }
+        .philosophy_text h3 {
+            color: #000;
+            text-align: center;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2.16px;
+            margin-top: 18%;
+        }
+        
+        .philosophy_text p {
+            width: 80%;
+            margin-left: 72px;
+            margin-top: 9%;
+            text-align: center;
+        }
+        /* <!-- philocophy area end --> */
+        /* philosophy_text_2 start */
+        .philosophy_text button {
+            background: #fff;
+            padding: 16px 60px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 11px;
+            margin-left: 40%;
+            margin-top: 65px;
+        }
+        .philosophy_text_2 p {
+            width: 80%;
+            margin-left: 72px;
+            margin-top: 25%;
+            text-align: center;
+        }
+        
+        
+        
+        .philosophy_text_2 {
+            width: 50%;
+        }
+        .philosophy_text_2 button {
+            background: #fff;
+            padding: 16px 60px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 11px;
+            margin-left: 29%;
+            margin-top: 11%;
+        }
+    
+         /* philosophy_text_2 end */
+         .therapy {
+            background: rgb(240, 240, 240);
+            width: 100%;
+            height: 386px;
+        }
+        .therapy h1 {
+            color: #000;
+            font-family: Gilroy;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 13.12px;
+            text-align: center;
+            padding-top: 11%;
+        }# lending_page
